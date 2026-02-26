@@ -1,0 +1,51 @@
+{
+  "name": "tyrefitting",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://chamathkadinusahani4.github.io/tyrefitting",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "framer-motion": "^12.34.3",
+    "lucide-react": "^0.526.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.18",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.9.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

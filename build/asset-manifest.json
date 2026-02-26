@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tyrefitting/static/css/main.343ef143.css",
+    "main.js": "/tyrefitting/static/js/main.2c96d29d.js",
+    "static/media/mobile.png": "/tyrefitting/static/media/mobile.19a509af4e12d23cd863.png",
+    "static/media/fitting.png": "/tyrefitting/static/media/fitting.157e1f56228b55e204ef.png",
+    "index.html": "/tyrefitting/index.html",
+    "main.343ef143.css.map": "/tyrefitting/static/css/main.343ef143.css.map",
+    "main.2c96d29d.js.map": "/tyrefitting/static/js/main.2c96d29d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.343ef143.css",
+    "static/js/main.2c96d29d.js"
+  ]
+}
