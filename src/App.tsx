@@ -1,4 +1,4 @@
-import { NuTyreLanding } from './pages/NuTyreLanding';
+import { NuTyreLanding } from "./pages/NuTyreLanding";
 
 export default function App() {
   return <NuTyreLanding />;

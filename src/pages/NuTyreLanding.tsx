@@ -8,6 +8,7 @@ import { TyreOptionsSection } from "../components/TyreOptionsSection";
 import { PricingSection } from "../components/PricingSection";
 import { FinalCTASection } from "../components/FinalCTASection";
 import { CTAButton } from "../components/CTAButton";
+import { BenefitsSection } from "../components/BenefitsSection";
 
 export function NuTyreLanding() {
   const [showStickyCTA, setShowStickyCTA] = useState(false);
@@ -25,28 +26,45 @@ export function NuTyreLanding() {
     <>
       <Helmet>
         <title>
-          Tyre Fitting Services | Fast & Reliable UK Coverage | NuTyre
+          Mobile Tyre Fitting UK | Same-Day Service at Your Location | NuTyre
         </title>
 
         <meta
           name="description"
-          content="NuTyre provides fast, reliable mobile tyre fitting across the UK. Same-day service, trusted tyre brands, and professional installation at your location."
+          content="Book mobile tyre fitting anywhere in the UK with NuTyre. Same-day service, professional technicians, and trusted tyre brands delivered to your location."
         />
-
-        <meta
-          name="keywords"
-          content="mobile tyre fitting UK, tyre fitting service UK, same day tyre fitting, NuTyre"
-        />
-
-        <meta property="og:title" content="NuTyre Mobile Tyre Fitting" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Mobile Tyre Fitting UK | NuTyre" />
         <meta
           property="og:description"
-          content="Book professional mobile tyre fitting anywhere in the UK."
+          content="Same-day mobile tyre fitting service across the UK."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://nutyre.co.uk" />
+        <meta property="og:url" content="https://nutyre.co.uk/" />
         <meta property="og:image" content="https://nutyre.co.uk/preview.png" />
-        <link rel="canonical" href="https://nutyre.co.uk" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="NuTyre Mobile Tyre Fitting UK" />
+        <meta
+          name="twitter:description"
+          content="Professional mobile tyre fitting at your location."
+        />
+        <meta name="twitter:image" content="https://nutyre.co.uk/preview.png" />
+
+        <link rel="canonical" href="https://nutyre.co.uk/" />
+        <link rel="preload" as="image" href="/assets/tyre_fitting.jpg" />
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            name: "NuTyre",
+            url: "https://nutyre.co.uk",
+            image: "https://nutyre.co.uk/preview.png",
+            description: "Mobile tyre fitting service across the UK",
+            areaServed: "United Kingdom",
+            serviceType: "Mobile Tyre Fitting",
+          })}
+        </script>
       </Helmet>
 
       <main className="w-full min-h-screen bg-nutyre-bg">
@@ -55,6 +73,7 @@ export function NuTyreLanding() {
         <HeroSection />
         <IncludedSection />
         <ConvenienceSection />
+        <BenefitsSection />
         <TyreOptionsSection />
         <PricingSection />
         <FinalCTASection />
